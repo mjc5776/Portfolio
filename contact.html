@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Mike Corey</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <!--Font Awsome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css">
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme|Kanit" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a href="index.html" id="logo">Mike Corey</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <a href="index.html">Home<span class="sr-only">(current)</span></a>
+        <a href="about.html">About Me</a>
+        <a href="">Resume</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://github.com/mjc5776"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/michael-corey-3a80b193/"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </nav>
+  </div>
+
+  <div id="main-container" class="container-fluid">
+    <section class="main-section animated slideInRight">
+      <h1>Contact</h1>
+      <form id="contact-form">
+        <div class="form-group">
+          <ul>
+            <li>
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="John Smith" required="required">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="example@gmail.com" required="required">
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control" name="message" required="required"></textarea>
+            </li>
+          </ul>
+
+          <input type="submit">
+        </div>
+      </form>
+
+    </section>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
