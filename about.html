@@ -5,21 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Mike Corey</title>
-   <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
   <!--Font Awsome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css">
-   <!--Google Fonts-->
-   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Acme|Kanit" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme|Kanit" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <div class="container-fluid">
+  <div class="container-fluid animated slideInLeft">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a href="index.html" id="logo">Mike Corey</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -27,31 +27,108 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <a href="index.html">Home<span class="sr-only">(current)</span></a>
-          <a href="about.html">About Me</a>
-          <a href="">Resume</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
-          <a href="https://github.com/mjc5776"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/michael-corey-3a80b193/"><i class="fab fa-linkedin"></i></a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <a class="nav-link" href="https://github.com/mjc5776" target="_blank"><i class="fab fa-github"></i></a>
+        <a class="nav-link" href="https://www.linkedin.com/in/michael-corey-3a80b193/" target="_blank"><i class="fab fa-linkedin"></i></a>
       </div>
     </nav>
   </div>
-  
+
+
   <div id="main-container" class="container-fluid">
-    <section class="main-section">
-      <h1>About</h1>
+    <div class="row">
+      <div class="col-sm">
+        <section class="main-section">
+          <h1>About</h1>
+          <img src="assets/images/Corey_Mike.JPG" class="auth-image" alt="Your Name">
 
-      <img src="assets/images/Corey_Mike.JPG" class="auth-image" alt="Your Name">
+          <p>My name is Mike Corey and I live in Centennial Colorado. While not a true native of Colorado I’ve lived in
+            this beautiful state for almost all my life. I’m married to a wonderful woman of 9 years and am blessed to
+            have twin 5-year-old boys that keep me on my toes. When not chasing after my kids I enjoy working out,
+            running and Spartan races.AROO! </p>
 
-      <p>My name is Mike Corey and I live in Centennial Colorado. While not a true native of Colorado I’ve lived in this beautiful state for almost all my life. I’m married to a wonderful woman of 9 years and am blessed to have twin 5-year-old boys that keep me on my toes. When not chasing after my kids I enjoy working out, running and Spartan races.AROO!  </p>
+          <p>I currently work as a Senior IT Analyst for the Denver Broncos. I’ve been employed by the Broncos for the
+            last 15 years. During my time with the Broncos I’ve been fortunate enough to be part of many great seasons,
+            including our world championship in 2015 for Super Bowl 50. </p>
 
-      <p>I currently work as a Senior IT Analyst for the Denver Broncos. I’ve been employed by the Broncos for the last 15 years. During my time with the Broncos I’ve been fortunate enough to be part of many great seasons, including our world championship in 2015 for Super Bowl 50. </p>
-
-      <p>I’ve had several different responsibilities in the IT department over my time at the Broncos. These responsibilities include help desk and PC builds as well as network support and more recently database and web application development.  I have experience working with ASP.NET web forms, VB.NET, Bootstrap, HTML and CSS. In addition, I also have experience building relational databases in MS SQL, building T-SQL queries and Views as well as paginated and mobile SSRS reports.</p>
-
-    </section>
-
+          <p>I’ve had several different responsibilities in the IT department over my time at the Broncos. These
+            responsibilities include help desk and PC builds as well as network support and more recently database and
+            web application development. I have experience working with ASP.NET web forms, VB.NET, Bootstrap, HTML and
+            CSS. In addition, I also have experience building relational databases in MS SQL, building T-SQL queries
+            and Views as well as paginated and mobile SSRS reports.</p>
+        </section>
+      </div>
+      <div class="col-sm">
+        <section class="skill-section">
+          <h1>Skills</h1>
+          <h2>Frontend</h2>
+          <ul>
+            <li>
+              HTML5
+            </li>
+            <li>
+              CSS3
+            </li>
+            <li>
+              Bootstrap
+            </li>
+            <li>
+              ASP.NET
+            </li>
+          </ul>
+          <h2>Programming Language </h2>
+          <ul>
+            <li>
+              JS
+            </li>
+            <li>
+              vb.net
+            </li>
+          </ul>
+          <h2>Database / Reporting</h2>
+          <ul>
+            <li>
+              Microsoft SQL Server
+            </li>
+            <li>
+                Microsoft SSRS
+            </li>
+            <li>
+              Firebase
+            </li>
+          </ul>
+          <h2>Other</h2>
+          <ul>
+            <li>
+              AJAX
+            </li>
+            <li>
+              jQuery
+            </li>
+            <li>
+              Microsoft GP
+              </li>
+          </ul>
+        </section>
+        
+      </div>
+    </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>

@@ -26,11 +26,11 @@ body {
   padding-bottom: 500px;
 }
 
+.con
+
 a{
   color: #b9941c;
   display: inline-block;
-  padding-left: 25px;
-  margin-left: 25px;
   line-height: 18px;
   font-size: 20px;
   font-weight: 500;
@@ -40,7 +40,8 @@ a{
  
 }
 
-.navLink{
+
+.nav-item{
   color: #b9941c;
   display: inline-block;
   padding-left: 25px;
@@ -90,7 +91,7 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Kanit', sans-serif;
   font-weight: 700;
   color: #b9941c;
 }
@@ -105,6 +106,10 @@ h1 {
 h2,
 h3 {
   font-size: 22px;
+}
+
+h2 {
+  
 }
 
 /* header */
@@ -124,7 +129,7 @@ h3 {
   float: left;
   width: 230px;
   height: 70px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Kanit', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 70px;
@@ -138,13 +143,13 @@ h3 {
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 100px;
   min-height: calc(100vh - 70px);
   background-image: url("../images/Image4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height:900px;
-  padding-left: 100px;
+  height:950px;
+  padding-left: 350px;
   
 }
 
@@ -158,6 +163,16 @@ h3 {
   border: 1px solid #dddddd;
   
 }
+.skill-section {
+  float: left;
+  width: 100%;
+  max-width: 460px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  
+}
 
 /* portfolio page */
 
@@ -165,8 +180,9 @@ h3 {
   position: relative;
   float: left;
   width: 274px;
-  margin: 20px 0 25px;
+  margin: 20px 0 25px 100px;
   overflow: auto;
+
 }
 
 .work:nth-child(even) {
@@ -265,8 +281,9 @@ input[type=submit] {
   }
 
   #main-container {
-    padding-top: 1px;
-    padding-left:0px;
+    padding-top: 10px;
+    padding-left: 20px;
+    
   }
 
   #logo{
@@ -297,7 +314,8 @@ input[type=submit] {
   }
 
   #main-container {
-    padding-top: 1px;
+    padding-top: 10px;
+    padding-left: 20px;
   
   }
 
@@ -307,6 +325,7 @@ input[type=submit] {
   }
   .work {
     width:240px;
+    margin: 20px 0 25px 30px;
   }
 
 }
@@ -330,7 +349,10 @@ input[type=submit] {
   }
 
   #main-container {
-    padding-top: 1px;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+
   
   }
 
@@ -345,7 +367,8 @@ input[type=submit] {
   }
 
   .work{
-    width:90%
+    width:90%;
+    margin: 20px 0 25px 30px;
   }
 
 .work h3 {
